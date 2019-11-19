@@ -1,0 +1,26 @@
+.row {
+  margin: 2rem;
+}
+
+button {
+  margin: .5rem 0;
+  border-radius: 2px;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+ul {
+  list-style: none;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  li {
+    margin: 1rem;
+    div {
+      width: 200px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
